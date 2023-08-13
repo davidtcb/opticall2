@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/davidtcb/opticall2/issues"
   },
-  "homepage": "https://github.com/davidtcb/opticall2#readme"
+  "homepage": "https://github.com/davidtcb/opticall2#readme",
+  "dependencies": {
+    "usb": "^2.9.0"
+  }
 }
