@@ -38,11 +38,19 @@ Our install was a minimal install due to the low hardware specifications. This m
 
 #### Install NodeJS
 
-`sudo install nodejs`
+`sudo apt install nodejs`
 
 #### Install NPM
 
 `sudo curl -L https://npmjs.org/install/sh | sudo sh`
+
+#### Install GIT
+
+`sudo apt install git`
+
+#### Install Process Manager
+
+`sudo npm install pm2 -g`
 
 
 
@@ -61,10 +69,7 @@ Install HID dependency
 sudo npm install node-hid --build-from-source
 
 
-Install Process Manager
 
-
-sudo npm install pm2 -g
 
 
 Move to Usr/Local folder
